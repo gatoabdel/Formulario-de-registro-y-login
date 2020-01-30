@@ -1,0 +1,36 @@
+        body{
+            background: orange;
+           
+        }
+        div.a{
+            position: absolute;
+            right: 45%;
+        }
+     div.b{
+            position: absolute;
+            right:48%;
+            bottom: 40%;
+        }
+        #registrado{
+            display: none;
+        }
+        #inicioSesion{
+            display: none;
+        }
+        #login18{
+            display: block;
+        }
+        #registracion{
+            display: none;
+        }
+        #b{
+            display: block;
+        }
+        .tbb{
+            background: brown;
+            width: 575px;
+            height: 375px;
+            padding-top: 20px;
+            border: 1px solid;
+            
+        }

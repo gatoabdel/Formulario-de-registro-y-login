@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+
+    </style>
+   <link href="css.css" rel="stylesheet">
+</head>
+<body>
+    <div id="inicioSesion">
+
+  <h1 id="hola">Bienvenido</h1>
+   <button id="cerrar" name="cerrar">Cerrar session</button>
+    </div>
+                                                           
+  
+        <center>
+        
+           <div id="registracion" class="tbb">
+            <h1>Resgistrate Campeon</h1>
+          <div id="registrado"><p>Te has registrado correctamente campeon</p></div>
+    
+             <form action="" method="post">
+             <table>
+             <tr>
+             <td> <label for="nombre">Nombre:</label></td>
+              <td><input type="text" placeholder="introduce tu nombre" name="nombre"  id="nombre"></td><br>
+              </tr>
+            <tr>
+                <td><label for="apellidos">Apellidos:</label></td>
+             <td> <input type="text" placeholder="introduce tu apellido" name="apellidos"  id="apellidos"></td><br>
+              </tr>
+              <tr>
+             <td><label for="contraseña">Contraseña:</label></td> 
+              <td><input type="password" name="password" placeholder="introduce contraseña" id="pass"></td> <br>
+              </tr>
+              <tr>
+             <td> <label for="password2">Contraseña de nuevo:</label></td>
+              <td><input type="password" name="password2" placeholder="intoducir contraseña" id="pass2"></td><br>
+              </tr>
+              <tr>
+             <td><label for="telefomo">Telefono o Email:</label></td> 
+            <td><input type="text" name="telefono" placeholder="introduce telefono o email"  id="email"></td> <br>
+              </tr>
+              <tr>
+                  <td><input type="button" value="registrarse" name="resgistrarse" id="registrar"></td><td><input type=button name="ini" id="ini" value="iniciar sesion"></td>
+              </tr>
+           </table>
+           </form>
+    </div>
+    </center>
+    <center>
+    <div class="tbb" id="b">
+    
+        
+    <form id="login" onsubmit="return member()">
+       
+        <table>
+          <h1>Iniciar sesion</h1>
+           <tr>
+            <td><label for="txtuser">Email o Telefono:</label></td>
+           <td> <input type="text"  name="user" id="user" required/></td><br/>
+            </tr>
+           <tr>
+           <td><label for="txtpass">Contraseña:</label> </td>
+           <td> <input type="password"  name="mostrar" id="mostrar" required/></td><br/>
+            </tr> 
+            <tr>
+                
+             <td>Mostrar Contraseña<input type="checkbox" name="guardar" id="guardar"></td> <td><input type=submit name="reg" id="reg" value="Registrarse"></td><br>
+             </tr>
+             <tr>
+           <td><input type="submit" class="button" id="btnlogin" name="btnlogin" value="Login"/></td> 
+            </tr>
+    </table>
+    </form>
+
+</div>
+</center>
+
+  <script src="script.js"></script>
+</body>
+</html>
